@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List - Bhadram Ayur Products</title>
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    /* Navigation Header */
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .brand-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c5e3b; 
+      text-decoration: none;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover, nav a.active {
+      color: #2c5e3b;
+    }
+
+    /* Main Content Section */
+    main {
+      flex: 1;
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #1b4332;
+      margin-bottom: 2rem;
+    }
+
+    .product-list {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .product-list li {
+      font-size: 1.15rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+      line-height: 1.5;
+    }
+
+    .custom-note {
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #4f6f52;
+      background-color: #e8f5e9;
+      padding: 1rem;
+      border-left: 4px solid #2c5e3b;
+      border-radius: 4px;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #1b4332;
+      color: #ffffff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-content span {
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <a href="index.html" class="brand-name">Bhadram Ayur Products</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product-list.html" class="active">Product List</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product List Content Section -->
+  <main>
+    <h1>Product List</h1>
+    
+    <ul class="product-list">
+      <li>Pesticide free Blue Pea Flower whole (Dried)</li>
+      <li>Pesticide free Blue Pea Flower powder</li>
+      <li>Henna/Mehndi powder</li>
+      <li>Henna/Mehndi leaves whole (dried)</li>
+      <li>Live Aloe Vera Plant</li>
+    </ul>
+
+    <div class="custom-note">
+      Contact us for Customisable amounts, of the mentioned products.
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <span><strong>Phone Number:</strong> 9037020886</span>
+      <span>|</span>
+      <span><strong>Email:</strong> Bhadramayurproducts@gmail.com</span>
+    </div>
+  </footer>
+
+</body>
+</html>
