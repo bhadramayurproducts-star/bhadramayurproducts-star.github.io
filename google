@@ -1,1 +1,9 @@
-<meta name="google-site-verification" content="VWoo5PLhUhdfHn9p19QYyeMafta3ye1UXuiC-vlsaEY" />
+# Add the specific google verification file
+git add 
+google-site-verification: google350bcff070343b0d.html
+# Commit the change with a message
+git commit -m "google-site-verification: google350bcff070343b0d.html"
+
+# Push the changes to GitHub
+git push origin main
+
